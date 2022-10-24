@@ -116,7 +116,7 @@ def pregunta_03():
     prediction_space = np.linspace(
     X_fertility.min(),
     X_fertility.max(),
-    )[:, np.newaxis]
+    )
 
     # Entrene el modelo usando X_fertility y y_life
     reg.fit(X_fertility, y_life)
